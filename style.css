@@ -25,9 +25,8 @@
     padding: 50px;
 }
 .main {
-    
-    height: auto;
     background-image: url("./images/slider-bg.jpg");
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
