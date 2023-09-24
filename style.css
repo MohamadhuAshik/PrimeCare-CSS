@@ -27,17 +27,14 @@
 .main {
     
     height: auto;
-    background-image: url("../images/slider-bg.jpg");
+    background-image: url("./images/slider-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
-    
-    
-    
+    align-items: flex-start; 
 }
 
 
