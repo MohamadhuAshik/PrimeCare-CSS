@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navbar nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.one {
+
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+.two {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px;
+}
+.main {
+    
+    height: auto;
+    background-image: url("../images/slider-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+    
+    
+}
+
+
+.head1 {
+    padding: 20px;
+    color: white;
+    background-color:  rgb(95, 62, 62);
+    border:none;
+   
+}
+button {
+    border: none;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: yellowgreen;
+    margin-left: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.head2 {
+    border: none;
+    align-self: flex-end;
+    padding: 20px;
+    color: white;
+    background-color:  rgb(95, 62, 62);
+    margin-top: 10px;
+}
+.button1 {
+    align-self: flex-end;
+    margin-right: 130px;
+    cursor: pointer;
+}
+.mainbox{
+    border: 2px solid black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    
+    
+}
+.mainbox .box1 { 
+    padding: 20px;
+    background-color: black;
+    color: white;
+ }
+
+ .mainbox .box2 { 
+    padding: 20px;
+    background-color: black;
+    color: white;
+ }
+ .mainbox .box3 {
+    padding: 20px;
+    background-color: black;
+    color: white;
+ }
+ .mainbox .box4 {
+    padding: 20px;
+    background-color: black;
+    color: white;
+ }
+ .box1:hover {
+    background-color: yellowgreen;
+    border: 20px solid yellowgreen;
+    cursor: pointer;
+ }
+ .box2:hover {
+    background-color: yellowgreen;
+    border: 20px solid yellowgreen;
+    cursor: pointer;
+ }
+ .box3:hover {
+    background-color: yellowgreen;
+    border: 20px solid yellowgreen;
+    cursor: pointer;
+ }
+ .box4:hover {
+    background-color: yellowgreen;
+    border: 20px solid yellowgreen;
+    cursor: pointer;
+ }
+ button:hover {
+    background-color: green;
+    
+ }
+
+
+
+   
